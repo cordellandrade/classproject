@@ -1,23 +1,40 @@
 body{
-    width: 100%;
-    margin: auto;
+    margin: 0px auto;
 
+    width: 850px;
 
 }
-div.img{
-    display: inline-block;
 
-    float: left;
+#dog-logo{
+
+    width: 200px;
+
+    
 }
 
 nav{
     display: inline-block;
 
-    float: middle;
+    word-spacing: 50px;
 
-    font-size: 12pt;
+
+    
+}
+
+a{
+    color: grey;
+
+    text-decoration: none;
+
+    font-weight: bold;
+} 
+
+a:hover{
+    color: blue;
 
 }
+
+
 
 header{
     text-align: center;
@@ -29,13 +46,55 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.dogs{
+    width: 100%;
+
+}
+
 h2{
     text-align: center;
     
 }
 
-section {
+section{
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     text-align: center;
+
+    display: block;
+
+    border: 2px dashed;
+
+    padding: 10px;
+
+    
 }
+
+aside{    
+    width: 30%;   
+
+    float: right;   
+
+    display: block;
+ 
+}   
+
+li{
+    list-style-type: none;
+}
+
+
+footer{
+    font-size: small;
+}
+
+
+
+
+
+
+ 
+
+
+
