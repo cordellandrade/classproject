@@ -13,3 +13,5 @@ if(response === 'small'){
     message = 'What size is your dog?';
 }
 document.write('<h3>' + message + '</h3>')
+
+// Asks user what size their dog is
