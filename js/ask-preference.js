@@ -16,7 +16,7 @@ if(response === 'small'){
     } else if (response === 'Large'){
         message = 'Large dog full spa priced at $65';
     } else {
-    message = 'Please refresh page and input size of yor dog';
+    message = 'Please refresh page and input size of your dog';
 }
 document.write('<h3>' + message + '</h3>')
 
