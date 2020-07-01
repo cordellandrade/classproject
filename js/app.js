@@ -1,3 +1,5 @@
+// Gives user a greeting based on time of the day
+
 function addGreeting() {
 var today = new Date();
 var hourNow = today.getHours();
@@ -48,10 +50,7 @@ if(response === 'small'){
 return document.write('<h3>' + message + '</h3>')
 }
 
-// Asks user what size their dog is
 
-function logger(){
-    console.log('Hello World');
-}
+
 
 
